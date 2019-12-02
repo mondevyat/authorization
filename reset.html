@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<title>Password Reset</title>
+</head>
+<body>
+	<div class="container mt-4">
+		<h1>Форма восстановления пароля</h1>
+		<form action="recovery.php" method="post">
+			<input type="text" class="form-control" name="login" id ="login" placeholder="Введите логин"><br>
+			<input type="text" class="form-control" name="e-mail" id ="e-mail" placeholder="Введите e-mail, на который будет выслано письмо"><br>
+			<button class="btn btn-success" type="submit">Отправить</button>
+		</form>
+	</div>
+</body>
+</html>
